@@ -1,0 +1,67 @@
+.tv-shows {
+	@include element('title') {
+		text-align: center;
+		border-bottom: 1px solid #d9d9d9;
+		padding-bottom: 15px;
+	}
+
+	/*
+	 Tv Shows TvShowsItem Styles
+	------------------------
+	*/
+	@include element('item') {
+		$root: &;
+		border: 1px solid #d9d9d9;
+		border-radius: 5px;
+		color: #333;
+		&:hover {
+			#{$root}-image {
+				filter: grayscale(0);
+				transition: all 500ms;
+			}
+		}
+	}
+	@include element('item-image') {
+		filter: grayscale(100%);
+	}
+
+	// Tv Shows TvShowsItem Content Styles
+	@include element('item-content') {
+		padding: 15px;
+	}
+	@include element('item-title') {
+		display: block;
+		font-weight: bold;
+		text-align: center;
+		padding-bottom: 15px;
+		border-bottom: 1px solid #d9d9d9;
+	}
+	@include element('item-languge') {
+		text-align: left;
+	}
+	@include element('item-rating') {
+		text-align: right;
+	}
+}
+
+/*
+ Tv Shows Detail Styles
+---------------------------
+*/
+
+.tv-shows-detail {
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.75);
+	border-radius: 5px;
+
+	// Tv Shows Detail Content Styles
+	@include element('content') {
+		padding: 15px;
+	}
+	@include element('title') {
+		font-weight: bold;
+		text-align: center;
+		border-bottom: 1px solid #d9d9d9;
+		padding-bottom: 15px;
+		margin-bottom: 15px;
+	}
+}
