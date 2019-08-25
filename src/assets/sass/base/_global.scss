@@ -1,15 +1,3 @@
-@font-face {
-	font-family: 'icomoon';
-	src: url('https://i.icomoon.io/public/temp/f187e3ee73/UntitledProject/icomoon.eot?vkgz4z');
-	src: url('https://i.icomoon.io/public/temp/f187e3ee73/UntitledProject/icomoon.eot?vkgz4z#iefix')
-			format('embedded-opentype'),
-		url('https://i.icomoon.io/public/temp/f187e3ee73/UntitledProject/icomoon.ttf?vkgz4z') format('truetype'),
-		url('https://i.icomoon.io/public/temp/f187e3ee73/UntitledProject/icomoon.woff?vkgz4z') format('woff'),
-		url('https://i.icomoon.io/public/temp/f187e3ee73/UntitledProject/icomoon.svg?vkgz4z#icomoon') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
 body {
 	font-family: 'Open Sans', sans-serif;
 	margin: 30px;
@@ -19,27 +7,4 @@ body {
 	max-width: 100%;
 	display: block;
 	width: 100%;
-}
-
-[class^='icon-'],
-[class*=' icon-'] {
-	/* use !important to prevent issues with browser extensions that change fonts */
-	font-family: 'icomoon' !important;
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
-
-	/* Better Font Rendering =========== */
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-.icon-language:before {
-	content: '\e9ca';
-}
-.icon-rating:before {
-	content: '\e9d9';
 }

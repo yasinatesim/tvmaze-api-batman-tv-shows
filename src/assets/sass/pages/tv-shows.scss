@@ -1,3 +1,4 @@
+@import url(https://i.icomoon.io/public/temp/68c0de8c7e/UntitledProject/style.css);;
 .tv-shows {
 	@include element('title') {
 		text-align: center;
@@ -32,6 +33,7 @@
 	@include element('item-title') {
 		display: block;
 		font-weight: bold;
+		font-size: 14px;
 		text-align: center;
 		padding-bottom: 15px;
 		border-bottom: 1px solid #d9d9d9;
