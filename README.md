@@ -1,3 +1,4 @@
+
 <p align="center">    
 <img src="http://static.tvmaze.com/images/api/tvm_api.png" width="400">    
 </p>    
@@ -5,7 +6,7 @@
       
 [![npm version](https://badge.fury.io/js/react.svg)](https://badge.fury.io/js/react) [![npm version](https://badge.fury.io/js/redux.svg)](https://badge.fury.io/js/redux)    
     
-This project lists Batman TV programs via [React](https://github.com/facebook/react/) with the [TVMaze API](http://www.tvmaze.com/api](http://www.tvmaze.com/api)) .  
+This project lists Batman TV programs via [React](https://github.com/facebook/react/) with the [TVMaze API](http://www.tvmaze.com/api) 
   
 ---  
   
@@ -22,11 +23,11 @@ Deployment Surge.sh: [**Demo URL**](http://yasinatesim.tvmze-api-batman-tv-shows
   
 ##### Other Features  
   
-- [Eslint](https://github.com/eslint/eslint](https://github.com/eslint/eslint)) is used for [Airbnb](https://github.com/airbnb/javascript](https://github.com/airbnb/javascript)) standards.  
-- [Prettier](https://github.com/prettier/prettier](https://github.com/prettier/prettier)) is used for tidy codes.  
-- [.editorconfig](https://github.com/editorconfig/](https://github.com/editorconfig/)) used to make the code look the same in all systems.  
-- Rules for CSS lint are in the [.stylelint](https://github.com/stylelint/stylelint](https://github.com/stylelint/stylelint)) file  
-- [Husky](https://github.com/typicode/husky](https://github.com/typicode/husky)) and [Lint Staged](https://github.com/okonet/lint-staged](https://github.com/okonet/lint-staged)) tools used to tidy codes when uploading the project to the Git  
+- [Eslint](https://github.com/eslint/eslint) is used for [Airbnb](https://github.com/airbnb/javascript) standards.  
+- [Prettier](https://github.com/prettier/prettier) is used for tidy codes.  
+- [.editorconfig](https://github.com/editorconfig/) used to make the code look the same in all systems.  
+- Rules for CSS lint are in the [.stylelintrc](https://github.com/stylelint/stylelint) file  
+- [Husky](https://github.com/typicode/husky) and [Lint Staged](https://github.com/okonet/lint-staged)) tools used to tidy codes when uploading the project to the Git  
 - [React Html Parse](https://www.npmjs.com/package/react-html-parser) is used for HTML string parse  
   
 ## How to Use  
