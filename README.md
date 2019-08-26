@@ -27,7 +27,7 @@ Deployment Surge.sh: [**Demo URL**](http://yasinatesim.tvmze-api-batman-tv-shows
 - [Prettier](https://github.com/prettier/prettier) is used for tidy codes.  
 - [.editorconfig](https://github.com/editorconfig/) used to make the code look the same in all systems.  
 - Rules for CSS lint are in the [.stylelintrc](https://github.com/stylelint/stylelint) file  
-- [Husky](https://github.com/typicode/husky) and [Lint Staged](https://github.com/okonet/lint-staged)) tools used to tidy codes when uploading the project to the Git  
+- [Husky](https://github.com/typicode/husky) and [Lint Staged](https://github.com/okonet/lint-staged) tools used to tidy codes when uploading the project to the Git  
 - [React Html Parse](https://www.npmjs.com/package/react-html-parser) is used for HTML string parse  
   
 ## How to Use  
