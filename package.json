@@ -17,7 +17,7 @@
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
-		"lint": "pretty-quick --steged && eslint . --fix",
+		"lint": "pretty-quick --staged && eslint . --fix",
 		"surge": "npm run build && mv ./build/index.html ./build/200.html && surge --project ./build --domain yasinatesim.tvmze-api-batman-tv-shows.surge.sh"
 	},
 	"eslintConfig": {
